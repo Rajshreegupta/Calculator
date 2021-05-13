@@ -53,13 +53,13 @@ for (let btn of buttons){
         else if (buttonText==='Ans'){
             screen.value = ans
         }
-        else if (buttonText==='sin<sup>-1</sup>'){
+        else if (buttonText==='sin-1'){
             screen.value += 'Math.asin'
         }
-        else if (buttonText==='cos<sup>-1</sup>'){
+        else if (buttonText==='cos-1'){
             screen.value += 'Math.acos'
         }
-        else if (buttonText==='tan<sup>-1</sup>'){
+        else if (buttonText==='tan-1'){
             screen.value += 'Math.atan'
         }
         else if (buttonText==='ln'){
